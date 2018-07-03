@@ -17,6 +17,7 @@ Curl to fetch data.
 The files:
 
 logExpDwarf.sh :  Logs Expanse EXP coins from dwarfpool.com
+
 logGin:           Logs Gin Coins from all pools
 
 
