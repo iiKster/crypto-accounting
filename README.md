@@ -13,6 +13,12 @@ AWK to handle float values as bash only understands int.
 
 Curl to fetch data.
 
+---------------The files---------------
+logExpDwarf.sh :  Logs Expanse EXP coins from dwarfpool.com
+logGin:           Logs Gin Coins from all pools
+
+
+----------------------------------------
 
 The scripts are free, as in free beer.
 Donations are accepted tough:
@@ -21,4 +27,4 @@ EXP: 0x8ce6b15cfed401c44bcaf41d1d83ed0b9e55a58b
 
 ETH: 0xce984841a23ffbaffa44779ae212f261b8f93d26
 
-BTC:
+
