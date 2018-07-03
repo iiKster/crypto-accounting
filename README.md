@@ -14,6 +14,9 @@ Curl to fetch data
 
 The scripts are free, as in free beer.  
 Donations are accepted tougn:
+
 EXP: 0x8ce6b15cfed401c44bcaf41d1d83ed0b9e55a58b
+
 ETH: 0xce984841a23ffbaffa44779ae212f261b8f93d26
+
 BTC: 
