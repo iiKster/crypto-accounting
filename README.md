@@ -8,8 +8,11 @@ By default the scripts use EURO as fiat currency and European date format, these
 
 Dependencies: 
 JQ to handle json data from pools, explorers and other APIs. 
-AWK to handle float values as bash only. 
+
+AWK to handle float values as bash only understands int. 
+
 Curl to fetch data.
+
 
 The scripts are free, as in free beer.
 Donations are accepted tough:
