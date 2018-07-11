@@ -20,6 +20,7 @@ logExpDwarf.sh :  Logs Expanse EXP coins from dwarfpool.com
 
 logGin.sh:           Logs Gin Coins from all pools
 
+logGraftHashvault.sh Logs Graft Coins hashvault.pro
 
 ----------------------------------------
 
