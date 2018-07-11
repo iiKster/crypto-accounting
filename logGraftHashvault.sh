@@ -14,11 +14,13 @@ while [  $int -lt 500 ]; do
 
         # Get the values from Hashvault / Coingecko json api
         # and assign them to variables
-        lastTime=$(curl -s https://graft.hashvault.pro/api/miner/GBSMnCdN72RfHYRfBfN1MZNac5tb7TX53dkv666DLGtk64xKtZg4gXUgwik7ConThe9tpEtL8zA3xb6R84BERGht9oGXFxn/payments?page | jq -r '.[0]$
-        lastPay=$(curl -s https://graft.hashvault.pro/api/miner/GBSMnCdN72RfHYRfBfN1MZNac5tb7TX53dkv666DLGtk64xKtZg4gXUgwik7ConThe9tpEtL8zA3xb6R84BERGht9oGXFxn/payments?page | jq -r '.[0] $
+        lastTime=$(curl -s https://graft.hashvault.pro/api/miner/YourAddress/payments?page | jq -r '.[0]$
+        lastPay=$(curl -s https://graft.hashvault.pro/api/miner/YourAddress/payments?page | jq -r '.[0] $
         grftBtcValue=$(curl -s https://api.coingecko.com/api/v3/coins/graft-blockchain | jq -r '.market_data .current_price .btc')
+#-------------FIAT------------
         btcEurValue=$(curl -s https://api.coingecko.com/api/v3/exchange_rates | jq -r '.rates .eur .value')
 
+#-------------DATE------------
         # Get current date
         date=`date +%d.%m.%Y`
 
