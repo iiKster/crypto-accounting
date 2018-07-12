@@ -1,4 +1,4 @@
-Bash scripts to help you keep track of the coins you have mined
+**Bash scripts to help you keep track of the coins you have mined**
 
 In some countries you have to declare and pay tax on the fair market value of the coin you have mined even if you choose to hodl (hold) the coins. The accounting can be a pain if the pool doesn't allow to set a higher payout threshold so some scripts got created.
 
@@ -8,7 +8,7 @@ By default the scripts use EURO as fiat currency and European date format, these
 
 ----------------------------------------
 
-Dependencies: 
+**Dependencies:**
 
 JQ to handle json data from pools, explorers and other APIs. 
 
@@ -17,7 +17,7 @@ AWK to handle float values as bash only understands int.
 Curl to fetch data.
 
 ----------------------------------------
-The files:
+**The files:**
 
 logExpDwarf.sh :  Logs Expanse EXP coins from dwarfpool.com
 
@@ -26,6 +26,13 @@ logGin.sh:           Logs Gin Coins from all pools
 logGraftHashvault.sh Logs Graft Coins hashvault.pro
 
 ----------------------------------------
+
+**Disclaimer:**
+
+**By using the scripts you accept all possible risks related to experimental software usage. I can't compensate any losses.**
+
+
+
 
 The scripts are free, as in free beer.
 Donations are accepted tough:
