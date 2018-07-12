@@ -41,7 +41,7 @@ while [  $int -lt 500 ]; do
                 then
                         #Print the stuff to a file
                         # If you run the script with @reboot from crontab please specify the full path to the file
-                        echo -e $date","$payment","$grftBtcValueFloat","$btcEurValue >> /home/pi/GRFTLog.txt
+                        echo -e $date","$payment","$grftBtcValueFloat","$btcEurValue >> /PATH/TO/grftLog.txt
                         oldTime=$lastTime
                 fi
         fi
