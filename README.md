@@ -29,13 +29,13 @@ logGraftHashvault.sh Logs Graft Coins hashvault.pro
 
 **Disclaimer:**
 
-**By using the scripts you accept all possible risks related to experimental software usage. I can't compensate any losses.**
+By using the scripts you accept all possible risks related to experimental software usage. I can't compensate any losses.
 
 
 
 
 The scripts are free, as in free beer.
-Donations are accepted tough:
+Donations are accepted tough: :)
 
 EXP: 0x8ce6b15cfed401c44bcaf41d1d83ed0b9e55a58b
 
