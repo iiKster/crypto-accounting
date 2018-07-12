@@ -4,7 +4,7 @@
 # Write a CSV file of your payments from Hashvault when mining graft.
 # The CSV file contains: Date,  Payout in GRFT, GRFT/BTC value, BTC/Euro value
 # Be sure to put in your GRFT address and path to the datafile to get some results
-# Data is fetched from Hashvault and Coingecko JOSN API
+# Data is fetched from Hashvault and Coingecko JSON API
 
 
 oldTime=0
