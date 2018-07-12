@@ -6,7 +6,10 @@ Here you will only find bash scripts for linux, no windows / mac / nintendo or p
 
 By default the scripts use EURO as fiat currency and European date format, these can be edited in the code, there are markers ---FIAT--- and ---DATE--- at the corresponding places.
 
+----------------------------------------
+
 Dependencies: 
+
 JQ to handle json data from pools, explorers and other APIs. 
 
 AWK to handle float values as bash only understands int. 
