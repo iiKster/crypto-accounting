@@ -9,15 +9,16 @@ while [  $int -lt 500 ]; do
 
         # Get the values from dwarfpool / coingecko json api
         # and assign them to variables
-        lastPay=$(curl -s http://dwarfpool.com/exp/api?wallet=0x8ce6b15cfed401c44bcaf41d1d83ed0b9e55a58b | jq -r '.last_payment_amount')
+        lastPay=$(curl -s http://dwarfpool.com/exp/api?wallet=0xYOUR_ADRESS | jq -r '.last_payment_amount')
         expBtcValue=$(curl -s https://api.coingecko.com/api/v3/coins/expanse | jq -r '.market_data .current_price .btc')
+        # Edit the .eur to .usd / .whatever_fiat_you_want
         btcEurValue=$(curl -s https://api.coingecko.com/api/v3/exchange_rates | jq -r '.rates .eur .value')
 
 
         #EXP value to BTC is so low the JSON output was 9.234e-5, lets AWK it to a float with 15 decimals
         expBtcValueFloat=$(awk -v expBtcValue="$expBtcValue" 'BEGIN { printf("%.16f\n", expBtcValue) }' </dev/null)
 
-        # Get current date
+        # Get current date, edit if you don't want it in day.month.year format
         date=`date +%d.%m.%Y`
         if [ "$lastPay" != "" ]
         then
