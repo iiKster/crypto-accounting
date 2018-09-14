@@ -25,6 +25,10 @@ logGin.sh:           Logs Gin Coins from all pools
 
 logGraftHashvault.sh Logs Graft Coins hashvault.pro
 
+logMix.sh       Logs Mix coin from minerpool.net
+
+logNrg.sh:      Logs Energi NRG coin from all pools / solomining
+
 ----------------------------------------
 
 
