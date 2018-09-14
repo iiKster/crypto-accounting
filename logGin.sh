@@ -16,7 +16,7 @@ while [  $int -lt 500 ]; do
 
         # Get the values from Gin block explorer / Coingecko json api
         # and assign them to variables
-        curBal=$(curl -s https://explorer.gincoin.io/ext/getaddress/GdJF4Q8uBYd63ce4Qzgw3nabKNcXskxdJv | jq -r '.balance')
+        curBal=$(curl -s https://explorer.gincoin.io/ext/getaddress/YourAdress | jq -r '.balance')
         ginBtcValue=$(curl -s https://api.coingecko.com/api/v3/coins/gincoin | jq -r '.market_data .current_price .btc')
 #  --------------FIAT--------------   Change the ".eur" to something else like ".usd" / ".gbp" / ".sek" ...
         btcEurValue=$(curl -s https://api.coingecko.com/api/v3/exchange_rates | jq -r '.rates .eur .value')
