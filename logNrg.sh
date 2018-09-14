@@ -16,7 +16,7 @@ while [  $int -lt 500 ]; do
 
         # Get the values from Gin block explorer / Coingecko json api and assign them to variables
         # Please enter your wallet address below
-        curBal=$(curl -sk https://explore.energi.network/ext/getaddress/EHozqg9KjYcgK3JVYnE96CezyLAEx5ZKV8 | jq -r '.received')
+        curBal=$(curl -sk https://explore.energi.network/ext/getaddress/YourAddressHere | jq -r '.received')
         nrgBtcValue=$(curl -s https://api.coingecko.com/api/v3/coins/energi | jq -r '.market_data .current_price .btc')
         #nrg value to BTC is so low the JSON output was 9.234e-5, lets AWK it to a float with 15 decimals
         nrgBtcValueFloat=$(awk -v nrgBtcValue="$nrgBtcValue" 'BEGIN { printf("%.16f\n", nrgBtcValue) }' </dev/null)
