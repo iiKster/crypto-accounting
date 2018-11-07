@@ -19,6 +19,8 @@ Curl to fetch data.
 ----------------------------------------
 **The files:**
 
+logEthoSexy.sh :  Logs Ether-1 coins from pool.sexy
+
 logExpDwarf.sh :  Logs Expanse EXP coins from dwarfpool.com
 
 logGin.sh:           Logs Gin Coins from all pools
