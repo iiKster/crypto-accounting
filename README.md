@@ -20,7 +20,7 @@ Curl to fetch data.
 **The files:**
 
 
-logEtcc.sh:  Log ETCC payments from pool.crypto-court.com
+logEtcc.sh :  Log ETCC payments from pool.crypto-court.com
 
 logEthoSexy.sh :  Logs Ether-1 coins from pool.sexy
 
